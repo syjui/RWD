@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+}
+
+#all {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('https://cdn.pixabay.com/photo/2015/06/08/14/01/mt-fuji-801604_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(22, 84, 218, 0.575);
+    
+
+}
+
+.logo-p {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 67, 29);
+    margin: 100px 0 0 50px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+.AAA {
+    padding:0;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.aaa {
+    padding: 20px 0;
+}
+.BBB{
+    color:yellow;
+    padding: 10px 50px;
+}
+.BBB:hover{
+    background-color: rgb(78, 214, 85);
+}
+
+.aaa :hover {
+    color: rgb(231, 23, 23);
+}
+
+
+.con {
+    width: 1080px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.head {
+    width: 360px;
+    height: 400px;
+    background-color: rgba(12, 158, 216, 0.795);
+    background-image: url('https://cdn.pixabay.com/photo/2019/11/07/07/30/japan-4608103_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.head:hover {
+    transform: scale(1.3);
+    transition: all 2s;
+    opacity: 1;
+}
+
+.mid {
+    width: 360px;
+    height: 400px;
+    background-color: yellow;
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/01/10/59/tokyo-2193354_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.mid:hover{
+    transform: scale(1.3);
+    transition: all 2s;
+    opacity: 1;
+}
+
+.footer {
+    width: 360px;
+    height: 400px;
+    background-color: blue;
+    background-image: url('https://c.pxhere.com/photos/f8/db/city_tokyo_street_view_shibuya_road_humanities_japan-900338.jpg!d');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.footer:hover{
+    transform: scale(1.3);
+    transition: all 2s;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:1280px) {
+    #all {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    .logo {
+        width: 200px;
+        height: 100vh;
+        background-color: rgba(219, 34, 204, 0.705);
+    }
+
+    .con {
+        width: 568px;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .head {
+        width: 568px;
+        height: 400px;
+        
+
+    }
+
+    .mid {
+        width: 284px;
+        height: 400px;
+        
+
+    }
+
+    .footer {
+        width: 284px;
+        height: 400px;
+        
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    #all {
+        
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        
+        width: 100%;
+        height: 80px;
+        background-color: rgb(211, 45, 211);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-p {
+        width: 70px;
+        height: 70px;
+        background-color: rebeccapurple;
+        margin: 5px 0 5px 20px;
+        line-height: 80px;
+    }
+
+    .AAA {
+        
+        display: flex;
+        
+    }
+    .BBB{
+        padding:0;
+    }
+
+    .aaa {
+        padding: 20px 10px 0 10px;
+
+    }
+
+    .con {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+    }
+
+    .head {
+        width: 90%;
+        height: 400px;
+        background-color: red;
+
+    }
+    .head:hover{
+        transform: scale(1.1);
+    }
+    .mid {
+        width: 45%;
+        height: 400px;
+        background-color: yellow;
+
+    }
+    .mid:hover{
+        transform: scale(1.1);
+    }
+    .footer{
+        width: 45%;
+        height: 400px;
+        background-color: blue;
+    }
+
+    .footer:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    #all {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 100%;
+        height: 80px;
+        background-color: gray;
+        position: relative;
+        
+
+    }
+
+    .logo-p {
+        width: 70px;
+        height: 70px;
+        background-color: rebeccapurple;
+        margin-left:calc(50% - 35px);
+    }
+
+    .AAA {
+        display: none;
+        list-style-type: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 7px;
+        padding: 0;
+    }
+
+    .aaa {
+        padding: 10px;
+        line-height: 10px;
+    }
+
+
+    .menu:hover .AAA{    
+        display: flex;
+        background-color: black;
+    }
+    
+    .BBB{
+        color:white;
+    }
+
+    .menu {
+        width: 70px;
+        height: 50px;
+        background-color: green;
+        margin: 15px 0 0 20px;
+        position: absolute;
+    }
+
+    .con {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .head {
+        width: 100%;
+        height: 195px;
+        background-color: red;
+    }
+
+    .head:hover{
+        transform: scale(1);
+    }
+
+    .mid {
+        width: 100%;
+        height: 195px;
+        background-color: yellow;
+    }
+
+    .mid:hover{
+        transform: scale(1);
+    }
+
+    .footer {
+        width: 100%;
+        height: 195px;
+        background-color: blue;
+    }
+
+    .footer:hover{
+        transform: scale(1);
+    }
+
+}
